@@ -25,7 +25,7 @@ export const Login = () => {
               name="password"
               placeholder="Password"
             />
-            <EyeIcon className="bi bi-eye absolute top-1/2 right-3 -translate-y-1/2" />
+            <EyeIcon className="absolute top-1/2 right-3 -translate-y-1/2" />
           </div>
           <button className="rounded-xl bg-blau py-2 text-white duration-300 hover:scale-105">
             Login
