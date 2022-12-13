@@ -4,14 +4,14 @@ import { FcGoogle } from 'react-icons/fc'
 
 export const Login = () => {
   return (
-    <div className="flex max-w-3xl items-center rounded-2xl bg-gray-100 p-5 shadow-lg">
-      <div className="px-8 md:w-1/2 md:px-16">
+    <div className="grid max-w-3xl grid-cols-1 items-center gap-x-5 rounded-2xl bg-gray-100 p-5 shadow-lg md:grid-cols-2">
+      <div className="px-8">
         <h2 className="text-2xl font-bold text-blau">Login</h2>
         <p className="mt-4 text-xs text-blau">
           If you are already a member, easily log in
         </p>
 
-        <form action="" className="flex flex-col gap-4">
+        <form className="flex flex-col gap-4">
           <input
             className="mt-8 rounded-xl border p-2"
             type="email"
@@ -55,7 +55,7 @@ export const Login = () => {
         </div>
       </div>
 
-      <div className="hidden w-1/2 md:block">
+      <div className="hidden md:block">
         <img className="rounded-2xl" src={ImageSrc} />
       </div>
     </div>
